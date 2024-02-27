@@ -10,7 +10,7 @@ Each FAQ item contains a question and an answer, and users can expand or collaps
 
 Website: 
 
-In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
+In this project, let's perform **Fetch and Routing** .
 
 ### Refer to the image below:
 
@@ -152,30 +152,6 @@ Use these files to complete the implementation:
 - `src/components/BlogItem/index.css`
 - `src/components/BlogItemDetails/index.js`
 - `src/components/BlogItemDetails/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- `Home` route should consist of `/` in the URL path
-- `About` route should consist of `/about` in the URL path
-- `Contact` route should consist of `/contact` in the URL path
-- `BlogItemDetails` route should consist of `/blogs/:id` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js` file
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as `loader` to it as shown below
-
-  ```jsx
-  <div data-testid="loader">
-    <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
-  </div>
-  ```
-
 </details>
 
 ### Resources
