@@ -1,3 +1,15 @@
+The provided code is a React application for displaying frequently asked questions (FAQs) and their answers. It consists of three main components:
+
+FaqItem Component: Represents an individual FAQ item. It toggles the display of the answer when the plus or minus button is clicked.
+
+Faqs Component: Displays a list of FAQs by mapping through an array of FAQ objects and rendering a FaqItem component for each FAQ.
+
+App Component (App.js): The entry point of the application. It renders the Faqs component with a predefined list of FAQ data.
+
+Each FAQ item contains a question and an answer, and users can expand or collapse the answer section by clicking on the respective plus or minus button. The styling is handled by CSS files to ensure a visually appealing layout and design.
+
+Website: 
+
 In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
